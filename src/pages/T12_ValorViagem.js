@@ -11,7 +11,7 @@ export default class T12_ValorViagem extends React.Component {
 
 
 				<View style={styles.map}>
-									<TouchableOpacity>
+									<TouchableOpacity onPress={() => {this.props.navigation.goBack()}}>
 										<Image
 									     source={require('../img/seta.png')}
 									     style={styles.imageIcon}
@@ -26,7 +26,7 @@ export default class T12_ValorViagem extends React.Component {
 
 							<View style={styles.row}>
 
-									<TouchableOpacity style={styles.button} onPress={() => {navigation.navigate( )}}>
+									<TouchableOpacity style={styles.button} onPress={() => {this.props.navigation.goBack()}}>
 					       				<View style={styles.viewbutton}>
 					       					<Text style={styles.textbutton}>
 					       							Cancelar
@@ -56,7 +56,7 @@ export default class T12_ValorViagem extends React.Component {
 
 const styles = StyleSheet.create({
 	map:{
-		backgroundColor: '#4D4DFF',
+		backgroundColor:'#00000070',
 		height: 623,
 	},
 	imageIcon:{

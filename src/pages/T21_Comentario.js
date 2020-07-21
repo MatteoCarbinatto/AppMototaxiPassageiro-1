@@ -23,7 +23,7 @@ export default class T21_Comentario extends React.Component {
 			<TextInput style={styles.input}>	
 			</TextInput>
 			</View>
-			<TouchableOpacity style={styles.button} onPress={() => {this.props.navigation.navigate({  })}}>
+			<TouchableOpacity style={styles.button} onPress={() => {this.props.navigation.navigate('T09_Inicio')}}>
 			       				<View style={styles.viewbutton}>
 
 			       					<Text style={styles.textbutton}>

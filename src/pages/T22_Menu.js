@@ -37,7 +37,8 @@ export default class T22_Menu extends React.Component {
         <Text style={styles.texto3}>Configuracoes</Text>
       </View>
         </View>
-      </View></Modal>
+      </View>
+      </Modal>
       );
   }
 }
@@ -46,7 +47,7 @@ export default class T22_Menu extends React.Component {
       flex:1,
     },
 
-    opcao:
+    opcaoMenu:
     {
       backgroundColor:'#303030',
       alignSelf:'stretch',
@@ -54,7 +55,7 @@ export default class T22_Menu extends React.Component {
       borderBottomColor:'#ffe500',
     },
 
-    texto:{
+    textoMenu:{
       color:'#ffffff',
       fontSize:15,
       position:'relative',
@@ -62,7 +63,7 @@ export default class T22_Menu extends React.Component {
       marginLeft:-75,
     },
 
-    texto2:{
+    texto2Menu:{
       color:'#ffffff',
       fontSize:15,
       position:'relative', 
@@ -70,7 +71,7 @@ export default class T22_Menu extends React.Component {
       marginLeft:-66,    
      },
 
-     texto3:{
+     texto3Menu:{
       color:'#ffffff',
       fontSize:15,
       position:'relative',
@@ -78,14 +79,14 @@ export default class T22_Menu extends React.Component {
       marginLeft:-95,
      },
 
-    titulo:{
+    tituloMenu:{
       color:'#ffffff',
       fontSize:30,
       alignSelf:'center',
       position:'relative',
     },
 
-    viagem:
+    viagemMenu:
     {
       width:90,
       height:90,
@@ -94,7 +95,7 @@ export default class T22_Menu extends React.Component {
       marginLeft:30,
     },
 
-    ajuda:
+    ajudaMenu:
     {
       width:92,
       height:92,
@@ -103,7 +104,7 @@ export default class T22_Menu extends React.Component {
       marginLeft:55,
     },
 
-    configuracao:
+    configuracaoMenu:
     {
       width:92,
       height:92,
@@ -112,7 +113,7 @@ export default class T22_Menu extends React.Component {
       marginLeft:60,
     },
 
-    user:
+    userMenu:
     {
       width:92,
       height:92,
@@ -121,7 +122,7 @@ export default class T22_Menu extends React.Component {
       marginTop:20,
     },
 
-    fechar:
+    fecharMenu:
     {
       width:25,
       height:25,

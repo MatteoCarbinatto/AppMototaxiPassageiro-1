@@ -30,7 +30,7 @@ export default class T14_ValorTroco extends React.Component {
 						</View>		
 						<View >
 
-								<TouchableOpacity style={styles.button} onPress={() => {this.props.navigation.navigate('T15_ConfirmaçaoLocal')}}>
+								<TouchableOpacity style={styles.button} onPress={() => {this.props.navigation.navigate('T15_ConfirmacaoLocal')}}>
 				       				<View style={styles.viewbutton}>
 				       					<Text style={styles.textbutton}>
 				       							Confirmar
@@ -53,7 +53,7 @@ export default class T14_ValorTroco extends React.Component {
 
 const styles = StyleSheet.create({
 	map:{
-		backgroundColor: '#4D4DFF',
+		backgroundColor:'#00000070',
 		height: 623,
 	},
 
@@ -81,7 +81,8 @@ const styles = StyleSheet.create({
 	text:{
 		fontSize:35,
 		color: 'white',
-		textAlign:'center'
+		textAlign:'center',
+		
 	},
 
 	textinput:{
@@ -91,6 +92,7 @@ const styles = StyleSheet.create({
 		borderBottomWidth: 1,
 		borderRadius: 10,
 		fontSize:30,
+		paddingLeft:10
 		
 	},
 

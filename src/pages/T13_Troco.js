@@ -26,7 +26,7 @@ export default class T13_Troco extends React.Component {
 
 						<View style={styles.row}>
 
-								<TouchableOpacity style={styles.button} onPress={() => {this.props.navigation.navigate('T15_ConfirmaçaoLocal')}}>
+								<TouchableOpacity style={styles.button} onPress={() => {this.props.navigation.navigate('T15_ConfirmacaoLocal')}}>
 			       					<View style={styles.viewbutton}>
 			       							<Text style={styles.textbutton}>
 			       									Não
@@ -60,7 +60,7 @@ export default class T13_Troco extends React.Component {
 
 const styles = StyleSheet.create({
 	map:{
-		backgroundColor: '#4D4DFF',
+		backgroundColor:'#00000070',
 		height: 623,
 	},
 	imageIcon:{

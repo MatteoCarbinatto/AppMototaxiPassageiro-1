@@ -36,7 +36,7 @@ export default class T20_FinalizacaoViagem extends React.Component {
 
 				<View style={styles.row}>
 
-									<TouchableOpacity style={styles.button} onPress={() => {this.props.navigation.navigate( )}}>
+									<TouchableOpacity style={styles.button} onPress={() => {this.props.navigation.navigate('T09_Inicio')}}>
 					       				<View style={styles.viewbutton}>
 					       					<Text style={styles.textbutton}>
 					       							Finalizar
@@ -44,7 +44,7 @@ export default class T20_FinalizacaoViagem extends React.Component {
 					       				</View>
 					       			</TouchableOpacity>
 
-					       			<TouchableOpacity style={styles.button} onPress={() => {this.props.navigation.navigate('T21_Comentário')}}>
+					       			<TouchableOpacity style={styles.button} onPress={() => {this.props.navigation.navigate('T21_Comentario')}}>
 					       				<View style={styles.viewbutton2}>
 					       					<Text style={styles.textbutton}>
 					       							Comentário

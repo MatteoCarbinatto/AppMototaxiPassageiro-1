@@ -3,6 +3,11 @@ import { Text, View, StyleSheet,Image,TextInput,TouchableOpacity } from 'react-n
 
 
 export default class T11_TrechoViagem extends React.Component {
+  componentDidMount(){
+    setTimeout(() => {
+      this.props.navigation.navigate('T12_ValorViagem');
+    }, 5000);
+  }
   render() {
     return (
     	<View style={styles.fundo}>

@@ -32,7 +32,7 @@ export default class T38_ConfimacaoSMS extends React.Component {
                     maxLength={1}
                     />
               </View>
-          <TouchableOpacity style={styles.button} onPress={() => {this.props.navigation.navigate('T06_BoasVindas')}}>
+          <TouchableOpacity style={styles.button} onPress={() => {this.props.navigation.navigate('T25_Configuracoes')}}>
                <View style={styles.viewbutton}>
                    <Text style={styles.textbutton}>
                            Verificar

@@ -8,11 +8,13 @@ export default class T04_Celular extends React.Component {
         <Text style={styles.text}>Qual o número do seu telefone celular?</Text>
             <View style={styles.inputflex}>
     
-                  <TextInput style={styles.Input} keyboardType = 'numeric'
+                  <TextInput style={styles.Input} 
+                 	keyboardType = 'numeric'
                     maxLength = {2}
                     placeholder= "99"
                 />
-                <TextInput style={styles.Input2} keyboardType = 'numeric'
+                <TextInput style={styles.Input2} 
+                	keyboardType = 'numeric'
                     maxLength = {9}
                     placeholder= "98765-4321"
                 />

@@ -5,7 +5,7 @@ export default class T19_RealizandoViagem extends React.Component {
 
   componentDidMount(){
     setTimeout(() => {
-      this.props.navigation.navigate('T29_ViagemRealizada');
+      this.props.navigation.navigate('T20_FinalizacaoViagem');
     }, 5000);
   }
 
@@ -82,7 +82,7 @@ const styles = StyleSheet.create({
     {
         backgroundColor:'#00000090',
         width:420,
-        height:200,
+        height:220,
         alignSelf:'center',
         borderWidth:1,
         position:'absolute',

@@ -11,7 +11,7 @@ constructor(props) {
 	          transparent={true}
 	          visible={this.state.isVisible}
 	          onRequestClose={() => {
-	            this.setState({ isVisible: false });
+	            this.setState({ isVisible2: false });
 	          }}
 	        >
 		        <View style={styles.modalbackground}>
@@ -26,7 +26,7 @@ constructor(props) {
 							
 						<View style={styles.row}>
 
-									<TouchableOpacity style={styles.modalbutton} onPress={() => {this.setState({ isVisible: false })}}>
+									<TouchableOpacity style={styles.modalbutton} onPress={() => {this.setState({ isVisible2: false })}}>
 					       				<View style={styles.modalviewbutton}>
 
 					       					<Text style={styles.modaltextbutton}>
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
 			flex:1
 	},
 
-	modalstyle:{
+	modalstyle2:{
 		backgroundColor:'#1C1C1C',
 		height:275,
 		width: 300,
@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
 		borderColor:'#fff',
 		
 	},
-	modaltext:{
+	modaltext2:{
 		color:'#fff',
 		fontSize:25,
 		textAlign:'center',
@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
 		marginLeft:6,
 		marginRight:6,
 	},
-	modaltextinput:{
+	modaltextinput2:{
 		backgroundColor:'#fff',
 		height:50,
 		width:170,
@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
 		flexDirection: 'row',
 	},
 
-	modalbutton:{
+	modalbutton2:{
 		marginTop:20,
 		paddingLeft:8,
 		paddingRight:8,
@@ -105,14 +105,14 @@ const styles = StyleSheet.create({
 		
 
 	},
-	modaltextbutton:{
+	modaltextbutton2:{
 		fontSize:25,
 		paddingTop: 10,
 		color: 'black',
 		textAlign:'center'
 	},
 	
-	modalviewbutton:{
+	modalviewbutton2:{
 		height: 50,
 		borderBottomWidth: 1,
 		backgroundColor:'#f00',
@@ -120,7 +120,7 @@ const styles = StyleSheet.create({
 		marginLeft:10
 	},
 
-	modalviewbutton2:{
+	modalviewbutton22:{
 		height: 50,
 		borderBottomWidth: 1,
 		backgroundColor:'#FDE93A',

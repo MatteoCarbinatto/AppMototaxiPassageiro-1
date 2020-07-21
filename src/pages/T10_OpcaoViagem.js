@@ -45,7 +45,7 @@ export default class T10_OpcaoViagem extends React.Component {
       flex:1,
     },
 
-    opcao:
+    opcaoOP:
     {
       backgroundColor:'#303030',
       width:300,
@@ -57,14 +57,14 @@ export default class T10_OpcaoViagem extends React.Component {
       borderColor:'#ffffff',
     },
 
-    texto:{
+    textoOP:{
       color:'#ffffff',
       fontSize:15,
       marginLeft:-90,
       marginTop:100,
     },
 
-    texto2:{
+    texto2OP:{
       color:'#ffffff',
       fontSize:15,
       position:'relative',
@@ -72,14 +72,14 @@ export default class T10_OpcaoViagem extends React.Component {
       marginTop:100,
      },
 
-    titulo:{
+    tituloOP:{
       color:'#ffffff',
       fontSize:30,
       alignSelf:'center',
       position:'relative',
     },
 
-    image:
+    imageOP:
     {
       width:100,
       height:100,
@@ -88,7 +88,7 @@ export default class T10_OpcaoViagem extends React.Component {
       marginTop:10,
     },
 
-    image2:
+    image2OP:
     {
       width:100,
       height:100,
@@ -97,7 +97,7 @@ export default class T10_OpcaoViagem extends React.Component {
       marginTop:10,
     },
 
-    fechar:
+    fecharOP:
     {
       width:20,
       height:20,

@@ -44,6 +44,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{headerShown: false}}>
+      
         <Stack.Screen name="T01_Abertura" component={T01_Abertura} />
         <Stack.Screen name="T02_Login" component={T02_Login} />
         <Stack.Screen name="T03_CriaConta" component={T03_CriaConta} />

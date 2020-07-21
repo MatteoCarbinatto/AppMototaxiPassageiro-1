@@ -4,12 +4,12 @@ import { Text, View, StyleSheet,Image, TouchableOpacity } from 'react-native';
 
 export default class T18_ACaminho extends React.Component {
 
-  componentDidMount(){
+ /* componentDidMount(){
     setTimeout(() => {
       this.props.navigation.navigate('T19_RealizandoViagem');
     }, 3000);
   }
-
+*/
   render() {
     return (    	
       <View style={styles.fundo}>
@@ -80,7 +80,7 @@ export default class T18_ACaminho extends React.Component {
     {
         backgroundColor:'#00000090',
         width:420,
-        height:200,
+        height:220,
         alignSelf:'center',
         borderWidth:1,
         position:'absolute',

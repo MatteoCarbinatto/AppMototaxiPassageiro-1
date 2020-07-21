@@ -38,7 +38,9 @@ return (
 					       				</View>
 					       			</TouchableOpacity>
 
-					       			<TouchableOpacity style={styles.modalbutton} onPress={() => {this.props.navigation.navigate()}}>
+					       			<TouchableOpacity style={styles.modalbutton} 
+					       			onPress={() => this.setState({ isVisible: false }) + this.props.navigation.navigate('T17_BuscarMotorista')}
+					       			>
 					       				<View style={styles.modalviewbutton2}>
 
 					       					<Text style={styles.modaltextbutton}>
@@ -163,7 +165,7 @@ const styles = StyleSheet.create({
 	},
 	
 	map:{
-		backgroundColor: '#4D4DFF',
+		backgroundColor:'#00000070',
 		height: 623,
 	},
 
